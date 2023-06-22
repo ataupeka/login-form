@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+}
+
+html{
+    font-family: 'Roboto', sans-serif; 
+}
+body{
+    background: darkgray;
+    height: 100vh;
+}
+
+form{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    width: 350px;
+    border-radius: 20px;
+    background-color: #d8d9cf;
+    padding: 30px;
+}
+form h1{
+    text-align: center;
+    padding: 10px;
+}
+
+form input{
+    display: block;
+    outline: none;
+    width: 100px;
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    background: none;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.text-username{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+.text-password{
+    width: 100%;
+    margin-top: 30px;
+   
+}
+.password-input, .text-input{
+    width: 100%; 
+}
+.forgot{
+    margin-top: 30px;
+}
+
+.forgot a{
+    color: #5f7161;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #ffc4c4;
+    transition: 0.5s;
+}
+
+.btn-login:hover{
+    background-color: #fa9494;
+}
